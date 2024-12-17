@@ -1,4 +1,45 @@
 const baseDeDatos = [
+
+    {
+        "nombre": "Fantasía Azul Infinito",
+        "precio": 0,
+        "precioReal": 112000,
+        "descripcion": "Eau de Parfum para mujer de aroma frutal de alta concentración, con vibrantes notas frescas de bergamota y sándalo.",
+        "imagen": "img/prods/fantasiaAzulInfinito.jpg",
+        "categoria": "esika",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Femenino"
+    },
+    {
+        "nombre": "Grazzia",
+        "precio": 0,
+        "precioReal": 204000,
+        "descripcion": "Creado con románticas notas de rosa de Bulgaria e iris. Para una mujer femenina por naturaleza, que le gusta despertar su lado más romántico creando momentos únicos.",
+        "imagen": "img/prods/grazzia.jpg",
+        "categoria": "lbel",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Femenino"
+    },
+    {
+        "nombre": "Satin Rouge",
+        "precio": 0,
+        "precioReal": 204000,
+        "descripcion": "Perfume de concentración alta que mezcla la sensual e irresistible orquídea de Madagascar y acordes de pimienta",
+        "imagen": "img/prods/satinRouge.jpg",
+        "categoria": "lbel",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Femenino"
+    },
+    {
+        "nombre": "Dream",
+        "precio": 0,
+        "precioReal": 134800,
+        "descripcion": "Con brillantes notas de pera de Provence que se fusionan con la elegante esencia de flor de magnolia y cálida madera de cedro, inspirado en la mujer audaz, vibrante y llena de energía",
+        "imagen": "img/prods/dream.jpg",
+        "categoria": "esika",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Femenino"
+    },
     {
         "id": 1,
         "nombre": "Fleur",
@@ -82,6 +123,16 @@ const baseDeDatos = [
         "precioReal": 150000,
         "descripcion": "Sus principales notas es el elixir de pétalos de rosa y licor de cassis, que se envuelven en las misteriosas maderas Oud, exclusivo ingrediente de la alta perfumería",
         "imagen": "img/prods/vibranzaAddiction.jpg",
+        "categoria": "esika",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Femenino"
+    },
+    {
+        "nombre": "Vibranza Luminous",
+        "precio": 0,
+        "precioReal": 150000,
+        "descripcion": "Luminosas notas de bergamota se unen a las sensuales esencias del jazmín y ámbar, para la mujer femenina y fuerte a la vez, que deja una esencia inolvidable al pasar.",
+        "imagen": "img/prods/vibranzaLuminous.webp",
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
         "genero": "Femenino"
@@ -315,6 +366,26 @@ const baseDeDatos = [
         "genero": "Femenino"
     },
     {
+        "nombre": "Mía Solar",
+        "precio": 0,
+        "precioReal": 204000,
+        "descripcion": "Con notas vibrantes y envolventes a luminosa flor de magnolia que se combina con el exquisito durazno blanco para brindar el brillo y calidez de la energía solar; para la mujer sensual e independiente.",
+        "imagen": "img/prods/miaSolar.jpg",
+        "categoria": "esika",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Femenino"
+    },
+    {
+        "nombre": "Bela",
+        "precio": 0,
+        "precioReal": 112000,
+        "descripcion": "Elegantes notas de aceite de rosa búlgara y flor de pera francesa, lo mejor del mundo en una esencia.",
+        "imagen": "img/prods/bela.webp",
+        "categoria": "esika",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Femenino"
+    },
+    {
         "nombre": "Nitro",
         "precio": 0,
         "precioReal": 81000,
@@ -465,6 +536,16 @@ const baseDeDatos = [
         "imagen": "img/prods/exus.jpg"
     },
     {
+        "nombre": "Bleu Femme",
+        "precio": 0,
+        "precioReal": 174000,
+        "descripcion": "La frescura de la bergamota y la sofisticación de un bouquet de rosas francesas, se combinan para crear un perfume dulce de mujer tan duradero como la esencia del mar",
+        "imagen": "img/prods/bleuFemme.jpg",
+        "categoria": "lbel",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Femenino"
+    },
+    {
         "nombre": "Bleu Glacial",
         "precio": 0,
         "precioReal": 166000,
@@ -583,6 +664,16 @@ const baseDeDatos = [
         "tipoDeProducto": "Fragancia",
         "genero": "Unisex",
         "imagen": "img/prods/you.webp"
+    },
+    {
+        "nombre": "You Live",
+        "precio": 0,
+        "precioReal": 112000,
+        "descripcion": "Eau de toilette Unisex de aroma frutal, con extraordinarias notas de naranja florida y tonka que te impulsan a vivir experiencias únicas con tus amigos.",
+        "imagen": "img/prods/youLive.webp",
+        "categoria": "lbel",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Unisex"
     },
     {
         "nombre": "You Good Vibes",
