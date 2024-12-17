@@ -1,0 +1,117 @@
+/* Estilos generales */
+body {
+    background-color: #F8F9FA; /* Fondo gris claro */
+    color: #212529; /* Texto principal */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bg-custom-header {
+    background-color: #343A40; /* Header gris oscuro */
+}
+
+header h1 {
+    color: #FFFFFF; /* Texto blanco */
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px 0;
+}
+
+/* Tarjetas de productos */
+.card {
+    background-color: #FFFFFF; /* Fondo blanco */
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    max-height: 300px; /* Altura máxima */
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.card-title {
+    color: #212529; /* Negro casi puro */
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px 0 5px 0;
+}
+
+.card-text {
+    color: #6C757D; /* Gris intermedio */
+    font-size: 0.95rem;
+    text-align: center;
+}
+
+.precio {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #FFD700; /* dorado */
+    text-align: center;
+}
+
+.precio s {
+    color: #7B8FA1; /*  azul grisaseo */
+    font-size: 1.1rem;
+}
+
+/* Footer */
+.bg-custom-footer {
+    background-color: #343A40; /* Gris oscuro */
+    color: #FFFFFF;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.875rem;
+}
+
+footer a {
+    color: #FFFFFF;
+    transition: color 0.3s ease-in-out;
+    margin: 0 10px;
+}
+
+footer a:hover {
+    color: #28A745; /* Verde al pasar el cursor */
+}
+
+/* Ajuste para dispositivos pequeños */
+@media (max-width: 768px) {
+    .card-img-top {
+        max-height: 200px; /* Reducir altura en pantallas pequeñas */
+    }
+
+    header h1 {
+        font-size: 1.8rem; /* Reducir tamaño del título */
+    }
+}
+/* Burbuja de descuento en forma de pastilla */
+.descuento-burbuja {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #2A9D8F; /* Verde turquesa */
+    color: #FFD700; /* Amarillo suave */
+    border-radius: 20px; /* Bordes redondeados para la forma de pastilla */
+    padding: 5px 15px; /* Espaciado interno para alargar la pastilla */
+    font-weight: bold;
+    font-size: 0.9rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    z-index: 10; /* Asegura que esté encima de la imagen */
+    text-align: center;
+    text-transform: uppercase; /* Letras mayúsculas para destacar */
+}
