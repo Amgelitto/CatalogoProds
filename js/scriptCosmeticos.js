@@ -18,6 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         producto.tipo === 'limpieza' ? 'Limpieza Facial' :
                         producto.tipo === 'oleoC' ? 'Óleo capilar' :
                         producto.tipo === 'cejas' ? 'Maquillaje de ojos' :
+                        producto.tipo === 'labial' ? 'Labiales' :
+                        producto.tipo === 'balsamo' ? 'Bálsamos labiales' :
                         producto.tipo === 'perlas' ? 'Polvos Faciales' :  '';
             const marca = producto.categoria === 'esika' ? 'Ésika' :
             producto.categoria === 'lbel' ? "L'bel" :
@@ -36,12 +38,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Crear las burbujas de colores con nombres
             const burbujasColoresHTML = producto.eleccion
-                ? `<div class="color-bubbles"> ${Array.from({ length: producto.colores }, (_, i) => {
+                ? `
+                <div class="color-nombre-container">
+                    <div class="color-actual-nombre" id="color-actual-nombre-${producto.nombre.replace(/\s+/g, '-')}" style="text-align:center; font-weight:bold;">${producto.nombrecolor1}</div>
+                </div>
+                <div class="color-bubbles"> ${Array.from({ length: producto.colores }, (_, i) => {
                     const colorName = producto[`nombrecolor${i + 1}`] || `Color ${i + 1}`;
                     return `
                         <div class="color-bubble-container">
-                            <div class="color-name">${colorName}</div>
-                            <div class="color-bubble" style="background-color: ${producto[`color${i + 1}`]};" data-imagen="${producto[`imagen${i + 1}`]}" data-nombre="${colorName}"></div>
+                            <div class="color-bubble" 
+                                 style="background-color: ${producto[`color${i + 1}`]};" 
+                                 data-imagen="${producto[`imagen${i + 1}`]}" 
+                                 data-nombre="${colorName}">
+                            </div>
                         </div>`;
                 }).join('')}</div>`
                 : '';
@@ -71,8 +80,12 @@ document.addEventListener('DOMContentLoaded', () => {
         colorBubbles.forEach(bubble => {
             bubble.addEventListener('click', (e) => {
                 const imagenSeleccionada = e.target.getAttribute('data-imagen');
-                const productoImagen = e.target.closest('.card').querySelector('.card-img-top');
+                const colorNombreSeleccionado = e.target.getAttribute('data-nombre');
+                const card = e.target.closest('.card');
+                const productoImagen = card.querySelector('.card-img-top');
+                const colorActualNombre = card.querySelector('.color-actual-nombre');
                 productoImagen.src = imagenSeleccionada; // Cambiar la imagen del producto
+                colorActualNombre.textContent = colorNombreSeleccionado; // Cambiar el nombre del color
             });
         });
     };
