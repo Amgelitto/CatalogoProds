@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Crear las burbujas de colores con nombres
             const burbujasColoresHTML = producto.eleccion
-                ? `
+                ? ` 
                 <div class="color-nombre-container">
                     <div class="color-actual-nombre" id="color-actual-nombre-${producto.nombre.replace(/\s+/g, '-')}" style="text-align:center; font-weight:bold;">${producto.nombrecolor1}</div>
                 </div>
@@ -56,22 +56,25 @@ document.addEventListener('DOMContentLoaded', () => {
                 : '';
 
             const productoHTML = `
-                <div class="col-md-4 mb-4">
-                    <div class="card position-relative">
+                <div class="col-md-6 col-lg-4 mb-3 d-flex">  <!-- Usar d-flex para asegurarnos de que todas las tarjetas sean iguales -->
+                    <div class="card position-relative flex-fill" style="padding: 10px; font-size: 0.85rem; display: flex; flex-direction: column;">
                         <!-- Burbuja de descuento -->
-                        <div class="descuento-burbuja">-${descuento}%</div>
+                        <div class="descuento-burbuja" style="font-size: 0.75rem; padding: 5px 10px;">-${descuento}%</div>
                         ${imagenHTML}
                         ${burbujasColoresHTML}
-                        <div class="card-body">
-                            <p class="text-muted">${marca} > ${tipoprod} > ${tipo}</p> <!-- Categoría añadida aquí -->
-                            <h5 class="card-title">${producto.nombre}</h5>
-                            <p class="card-text">${producto.descripcion}</p>
-                            <p class="precio"><s>$${producto.precioReal}</s> $${producto.precio}</p>
+                        <div class="card-body" style="padding: 10px; flex-grow: 1; display: flex; flex-direction: column; justify-content: space-between;">
+                            <p class="text-muted" style="font-size: 0.85rem;">${marca} > ${tipoprod} > ${tipo}</p>
+                            <h5 class="card-title" style="font-size: 1rem; font-weight: bold;">${producto.nombre}</h5>
+                            <p class="card-text" style="font-size: 0.85rem;">${producto.descripcion}</p>
+                            <div style="margin-top: auto;">
+                                <p class="precio" style="font-size: 1.3rem; font-weight: bold;">
+                                    <s style="font-size: 0.9rem;">$${producto.precioReal}</s> $${producto.precio}
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
             `;
-
             productosContainer.innerHTML += productoHTML;
         });
 

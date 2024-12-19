@@ -406,6 +406,16 @@ const baseDeDatos = [
         "imagen": "img/prods/nitroAir.jpg"
     },
     {
+        "nombre": "Nitro Night",
+        "precio": 0,
+        "precioReal": 81000,
+        "descripcion": "El Perfume de Hombre Nitro Night perfecto para hombres que buscan sentirse libre y disfrutar al máximo la adenalina de la noches. ¡Captura todas las miradas con esta fragancia!",
+        "categoria": "cyzone",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Masculino",
+        "imagen": "img/prods/nitroNight.webp"
+    },
+    {
         "nombre": "Nitro Intense",
         "precio": 0,
         "precioReal": 81000,
@@ -429,7 +439,7 @@ const baseDeDatos = [
         "nombre": "Leyenda Absolute",
         "precio": 0,
         "precioReal": 172000,
-        "descripcion": "Con seductoras notas de cardamomo y tonka",
+        "descripcion": "Con seductoras notas de cardamomo y tonka, para el seductor innato que disfruta sorprenderla, volverla su cómplice y convertir cualquier situación en una experiencia inolvidable.",
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
@@ -509,11 +519,11 @@ const baseDeDatos = [
         "nombre": "Homme 033",
         "precio": 0,
         "precioReal": 218000,
-        "descripcion": "Con la elegante frescura del Geranio de bourbon y acordes de Cognac",
+        "descripcion": "Aroma de hombre de larga duración con la elegante frescura del Geranio de bourbon y acordes de Cognac para el hombre con todo el poder de atraccion.",
         "categoria": "lbel",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/homme033.jpg"
+        "imagen": "img/prods/homme033.webp"
     },
     {
         "nombre": "Magnat",
