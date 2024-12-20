@@ -70,6 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
                                 <p class="precio" style="font-size: 1.3rem; font-weight: bold;">
                                     <s style="font-size: 0.9rem;">$${producto.precioReal}</s> $${producto.precio}
                                 </p>
+                                <a id="btnWsp" href="https://wa.me/573216753349?text=${encodeURI("Hola, quiero más información sobre ")}${encodeURIComponent(producto.nombre)}${encodeURI(" de ")}${encodeURIComponent(marca)}" class="btn btn-success mt-2" target="_blank">¡Detalles aquí!</a>
                             </div>
                         </div>
                     </div>
