@@ -12,7 +12,7 @@ const baseDeDatos = [
     },
     {
         "nombre": "Grazzia",
-        "precio": 0,
+        "precio": 46000,
         "precioReal": 204000,
         "descripcion": "Creado con románticas notas de rosa de Bulgaria e iris. Para una mujer femenina por naturaleza, que le gusta despertar su lado más romántico creando momentos únicos.",
         "imagen": "img/prods/grazzia.jpg",
