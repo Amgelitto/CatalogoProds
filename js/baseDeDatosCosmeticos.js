@@ -250,7 +250,7 @@ const baseDeDatos = [
         "imagen2": "img/prods/mateStudioDeepRed.webp",
         "imagen3": "img/prods/mateStudioRedStar.webp",
         "imagen4": "img/prods/mateStudioBerryPop.webp",
-        "categoria": "esika",
+        "categoria": "cyzone",
         "tipoDeProducto": "cosmetico",
         "tipo": "labial",
         "eleccion": true,

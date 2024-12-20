@@ -1,64 +1,95 @@
 const baseDeDatos = [
-
     {
-        "nombre": "Fantasía Azul Infinito",
+        "nombre": "New Cool",
+        "precio": 0,
+        "precioReal": 80000,
+        "descripcion": "De aroma oriental especiada gracias a sus potentes notas de bergamota, cálidos toques de pimienta Timut y notas de ámbar",
+        "categoria": "cyzone",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Masculino",
+        "imagen": "img/prods/newCool.webp"
+    },
+    {
+        "nombre": "Pulso Abosolute",
+        "precio": 0,
+        "precioReal": 172000,
+        "descripcion": "Seductoras notas de tabaco que se fusionan con vibrantes acordes de cardamomo",
+        "categoria": "esika",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Masculino",
+        "imagen": "img/prods/pulsoAbsolute.jpg"
+    },
+    {
+        "nombre": "Leyenda Absolute",
+        "precio": 0,
+        "precioReal": 172000,
+        "descripcion": "Con seductoras notas de cardamomo y tonka, para el seductor innato que disfruta sorprenderla, volverla su cómplice y convertir cualquier situación en una experiencia inolvidable.",
+        "categoria": "esika",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Masculino",
+        "imagen": "img/prods/leyendaAbsolute.webp"
+    },
+    {
+        "nombre": "Vanilla",
         "precio": 0,
         "precioReal": 112000,
-        "descripcion": "Eau de Parfum para mujer de aroma frutal de alta concentración, con vibrantes notas frescas de bergamota y sándalo.",
-        "imagen": "img/prods/fantasiaAzulInfinito.jpg",
+        "descripcion": "Eau de toilette masculino de aroma oriental especiado, con seductoras notas de vainilla y cedro",
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
-        "genero": "Femenino"
+        "genero": "Masculino",
+        "imagen": "img/prods/vanilla.webp"
     },
     {
-        "nombre": "Grazzia",
-        "precio": 46000,
-        "precioReal": 204000,
-        "descripcion": "Creado con románticas notas de rosa de Bulgaria e iris. Para una mujer femenina por naturaleza, que le gusta despertar su lado más romántico creando momentos únicos.",
-        "imagen": "img/prods/grazzia.jpg",
-        "categoria": "lbel",
-        "tipoDeProducto": "Fragancia",
-        "genero": "Femenino"
-    },
-    {
-        "nombre": "Satin Rouge",
-        "precio": 0,
-        "precioReal": 204000,
-        "descripcion": "Perfume de concentración alta que mezcla la sensual e irresistible orquídea de Madagascar y acordes de pimienta",
-        "imagen": "img/prods/satinRouge.jpg",
-        "categoria": "lbel",
-        "tipoDeProducto": "Fragancia",
-        "genero": "Femenino"
-    },
-    {
-        "nombre": "Dream",
-        "precio": 0,
-        "precioReal": 134800,
-        "descripcion": "Con brillantes notas de pera de Provence que se fusionan con la elegante esencia de flor de magnolia y cálida madera de cedro, inspirado en la mujer audaz, vibrante y llena de energía",
-        "imagen": "img/prods/dream.jpg",
-        "categoria": "esika",
-        "tipoDeProducto": "Fragancia",
-        "genero": "Femenino"
-    },
-    {
-        "id": 1,
-        "nombre": "Fleur",
+        "id": 16,
+        "nombre": "Vanilla Scent",
         "precio": 50000,
-        "precioReal": 174000,
-        "descripcion": "Familia olfativa floral con un aroma creado al combinar la elegancia del lirio francés con notas frutales de pera y mandarina",
-        "imagen": "img/prods/fleur.jpg",
+        "precioReal": 112000,
+        "descripcion": "Eau de Parfum para mujer con aroma oriental dulce de larga duración, con cálidas notas de vainilla y jazmín",
+        "imagen": "img/prods/vanillaScent.webp",
+        "categoria": "esika",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Femenino"
+    },
+    {
+        "id": 14,
+        "nombre": "Mithyka",
+        "precio": 60000,
+        "precioReal": 180000,
+        "descripcion": " Las flores más voluptuosas y opulentas, como el el jazmín de Sambac, se combinan con un exquisito bouquet de flores blancas para crear un seductor aroma que refleja todo el poder y sensualidad de una diosa",
+        "imagen": "img/prods/mithyka.webp",
         "categoria": "lbel",
         "tipoDeProducto": "Fragancia",
         "genero": "Femenino"
     },
     {
-        "id": 3,
-        "nombre": "Fleur Icon",
-        "precio": 60000,
-        "precioReal": 174000,
-        "descripcion": "Brillantes acentos frutales de lychee y pera, se fusionan con sofisticadas notas de Magnolia Francesa",
-        "imagen": "img/prods/fleurIcon.webp",
-        "categoria": "lbel",
+        "nombre": "Salvaje",
+        "precio": 0,
+        "precioReal": 112000,
+        "descripcion": "Con aroma oriental especiado de concentración media, a base de seductoras notas de musgo y patchouli",
+        "categoria": "esika",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Masculino",
+        "imagen": "img/prods/salvaje.webp"
+    },
+    {
+        "id": 6,
+        "nombre": "In Love",
+        "precio": 38000,
+        "precioReal": 76000,
+        "descripcion": "De aroma floral gracias a sus dulces toques de melocotón y un femenino bouquet floral",
+        "imagen": "img/prods/inLove.webp",
+        "categoria": "cyzone",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Femenino"
+    },
+    {
+        "id": 7,
+        "nombre": "In Love Passion",
+        "precio": 39000,
+        "precioReal": 76000,
+        "descripcion": "De aroma oriental dulce gracias a sus vibrantes toques de mora, intensas notas de violeta e irresistible vainilla",
+        "imagen": "img/prods/inLovePassion.jpg",
+        "categoria": "cyzone",
         "tipoDeProducto": "Fragancia",
         "genero": "Femenino"
     },
@@ -106,221 +137,44 @@ const baseDeDatos = [
         "imagen": "img/prods/expressionCelebrate.webp"
     },
     {
-        "id": 4,
-        "nombre": "Vibranza",
-        "precio": 55000,
-        "precioReal": 150000,
-        "descripcion": "Con irresistibles notas de orquídea de vainilla y flor de café",
-        "imagen": "img/prods/vibranza.webp",
-        "categoria": "esika",
-        "tipoDeProducto": "Fragancia",
-        "genero": "Femenino"
-    },
-    {
-        "id": 5,
-        "nombre": "Vibranza Addiction",
-        "precio": 59000,
-        "precioReal": 150000,
-        "descripcion": "Sus principales notas es el elixir de pétalos de rosa y licor de cassis, que se envuelven en las misteriosas maderas Oud, exclusivo ingrediente de la alta perfumería",
-        "imagen": "img/prods/vibranzaAddiction.jpg",
-        "categoria": "esika",
-        "tipoDeProducto": "Fragancia",
-        "genero": "Femenino"
-    },
-    {
-        "nombre": "Vibranza Luminous",
+        "nombre": "Devos Magnetic",
         "precio": 0,
-        "precioReal": 150000,
-        "descripcion": "Luminosas notas de bergamota se unen a las sensuales esencias del jazmín y ámbar, para la mujer femenina y fuerte a la vez, que deja una esencia inolvidable al pasar.",
-        "imagen": "img/prods/vibranzaLuminous.webp",
-        "categoria": "esika",
-        "tipoDeProducto": "Fragancia",
-        "genero": "Femenino"
-    },
-    {
-        "id": 19,
-        "nombre": "Impredecible",
-        "precio": 40000,
-        "precioReal": 134800,
-        "descripcion": "Con adictivas notas de vainilla de Madagascar y freesia de Japón para las mujeres que intrigan por su sensualidad",
-        "imagen": "img/prods/impredecible.jpg",
-        "categoria": "esika",
-        "tipoDeProducto": "Fragancia",
-        "genero": "Femenino"
-    },
-    {
-        "id": 20,
-        "nombre": "Impredecible Mysterious",
-        "precio": 40000,
-        "precioReal": 134000,
-        "descripcion": "Con exquisita flor de luna conocida por revelar su adictiva esencia bajo la luz de la luna, que junto a la cremosa vainilla, brindan un aroma femenino y sensual inspirado en la mujer misteriosa e impredecible",
-        "imagen": "img/prods/impredecibleMysterious.jpg",
-        "categoria": "esika",
-        "tipoDeProducto": "Fragancia",
-        "genero": "Femenino"
-    },
-    {
-        "id": 6,
-        "nombre": "In Love",
-        "precio": 38000,
-        "precioReal": 76000,
-        "descripcion": "De aroma floral gracias a sus dulces toques de melocotón y un femenino bouquet floral",
-        "imagen": "img/prods/inLove.webp",
-        "categoria": "cyzone",
-        "tipoDeProducto": "Fragancia",
-        "genero": "Femenino"
-    },
-    {
-        "id": 7,
-        "nombre": "In Love Passion",
-        "precio": 39000,
-        "precioReal": 76000,
-        "descripcion": "De aroma oriental dulce gracias a sus vibrantes toques de mora, intensas notas de violeta e irresistible vainilla",
-        "imagen": "img/prods/inLovePassion.jpg",
-        "categoria": "cyzone",
-        "tipoDeProducto": "Fragancia",
-        "genero": "Femenino"
-    },
-    {
-        "id": 8,
-        "nombre": "Dancing",
-        "precio": 35000,
-        "precioReal": 78000,
-        "descripcion": "De aroma floral gracias a sus refrescantes notas cítricas y pétalos de rosa",
-        "imagen": "img/prods/dancing.webp",
-        "categoria": "cyzone",
-        "tipoDeProducto": "Fragancia",
-        "genero": "Femenino"
-    },
-    {
-        "id": 9,
-        "nombre": "Dancing Night",
-        "precio": 35000,
-        "precioReal": 78000,
-        "descripcion": "De aroma oriental dulce gracias a sus radiantes notas vibrantes de ciruela y vainilla",
-        "imagen": "img/prods/dancingNight.jpg",
-        "categoria": "cyzone",
-        "tipoDeProducto": "Fragancia",
-        "genero": "Femenino"
-    },
-    {
-        "id": 10,
-        "nombre": "Dancing Sunset",
-        "precio": 35000,
-        "precioReal": 78000,
-        "descripcion": "De aroma oriental dulce gracias a su mezcla de radiantes notas vibrantes de flores de sambac y sugar ambar",
-        "imagen": "img/prods/dancingSunset.webp",
-        "categoria": "cyzone",
-        "tipoDeProducto": "Fragancia",
-        "genero": "Femenino"
-    },
-    {
-        "id": 14,
-        "nombre": "Mithyka",
-        "precio": 60000,
-        "precioReal": 180000,
-        "descripcion": " Las flores más voluptuosas y opulentas, como el el jazmín de Sambac, se combinan con un exquisito bouquet de flores blancas para crear un seductor aroma que refleja todo el poder y sensualidad de una diosa",
-        "imagen": "img/prods/mithyka.webp",
+        "precioReal": 218000,
+        "descripcion": "Fusiona atractivos matices de cedro y el magnetismo de la pimienta negra, con las notas de la bergamota",
         "categoria": "lbel",
-        "tipoDeProducto": "Fragancia",
-        "genero": "Femenino"
-    },
-    {
-        "id": 15,
-        "nombre": "Prints",
-        "precio": 25000,
-        "precioReal": 58000,
-        "descripcion": "De aroma oriental dulce gracias a sus intensas notas de jazmin combinadas con la irresistible vainilla",
-        "imagen": "img/prods/prints.jpg",
-        "categoria": "cyzone",
-        "tipoDeProducto": "Fragancia",
-        "genero": "Femenino"
-    },
-    {
-        "nombre": "Prints Adventure",
-        "precio": 0,
-        "precioReal": 58000,
-        "descripcion": "Aroma floral gracias a la bergamota energizante con la exótica y dulce flor de Ylang-Ylang envuelta en sándalo",
-        "categoria": "cyzone",
-        "tipoDeProducto": "Fragancia",
-        "genero": "Femenino",
-        "imagen": "img/prods/printsAdventure.webp"
-    },
-    {
-        "nombre": "Vanilla",
-        "precio": 0,
-        "precioReal": 112000,
-        "descripcion": "Eau de toilette masculino de aroma oriental especiado, con seductoras notas de vainilla y cedro",
-        "categoria": "esika",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/vanilla.webp"
+        "imagen": "img/prods/devosMagnetic.jpg"
     },
     {
-        "id": 16,
-        "nombre": "Vanilla Scent",
-        "precio": 50000,
+        "nombre": "You",
+        "precio": 0,
+        "precioReal": 100800,
+        "descripcion": "Con aroma frutal, cítrico y energizante, a base de frescas notas de limón y mandarina",
+        "categoria": "esika",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Unisex",
+        "imagen": "img/prods/you.webp"
+    },
+    {
+        "nombre": "You Live",
+        "precio": 0,
         "precioReal": 112000,
-        "descripcion": "Eau de Parfum para mujer con aroma oriental dulce de larga duración, con cálidas notas de vainilla y jazmín",
-        "imagen": "img/prods/vanillaScent.webp",
-        "categoria": "esika",
-        "tipoDeProducto": "Fragancia",
-        "genero": "Femenino"
-    },
-    {
-        "id": 17,
-        "nombre": "Mon",
-        "precio": 58000,
-        "precioReal": 218000,
-        "descripcion": "Un aroma inspirado en la mujer única y real, llena de contrastes. Aquella que vive su esencia femenina. Es delicada y fuerte",
-        "imagen": "img/prods/mon.webp",
+        "descripcion": "Eau de toilette Unisex de aroma frutal, con extraordinarias notas de naranja florida y tonka que te impulsan a vivir experiencias únicas con tus amigos.",
+        "imagen": "img/prods/youLive.webp",
         "categoria": "lbel",
         "tipoDeProducto": "Fragancia",
-        "genero": "Femenino"
+        "genero": "Unisex"
     },
     {
-        "id": 18,
-        "nombre": "Mon Gold",
-        "precio": 58000,
-        "precioReal": 218000,
-        "descripcion": "Perfume para mujer de alta concentración. Chispeante champagne y un sofisticado bouquet floral se combinan con la elegancia y herencia francesa de la Base de Laire Mousse de Saxe",
-        "imagen": "img/prods/monGold.webp",
-        "categoria": "lbel",
-        "tipoDeProducto": "Fragancia",
-        "genero": "Femenino"
-    },
-    {
-        "id": 21,
-        "nombre": "Girlink",
-        "precio": 25000,
-        "precioReal": 76000,
-        "descripcion": "De aroma floral gracias sus toques frescos de uva y un delicado bouquet de flores blancas",
-        "imagen": "img/prods/girlink.webp",
-        "categoria": "cyzone",
-        "tipoDeProducto": "Fragancia",
-        "genero": "Femenino"
-    },
-    {
-        "id": 22,
-        "nombre": "Mystic Star",
-        "precio": 35990,
-        "precioReal": 78000,
-        "descripcion": "Perfume de mujer de aroma oriental dulce que te hace brillar gracias a sus ingredientes de albaricoque, magnolia y adictiva vainilla",
-        "imagen": "img/prods/mysticStar.webp",
-        "categoria": "cyzone",
-        "tipoDeProducto": "Fragancia",
-        "genero": "Femenino"
-    },
-    {
-        "id": 23,
-        "nombre": "Fiori",
-        "precio": 39990,
-        "precioReal": 116300,
-        "descripcion": "Elegantes notas de rosas blancas y gardenia que resaltan la confianza y fuerza de la mujer",
-        "imagen": "img/prods/fiori.webp",
+        "nombre": "You Good Vibes",
+        "precio": 0,
+        "precioReal": 112000,
+        "descripcion": "Eau de Toilette unisex de aroma frutal, con radiantes notas de pera que junto a la sal marina y madera flotante",
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
-        "genero": "Femenino"
+        "genero": "Unisex",
+        "imagen": "img/prods/youGoodVibes.webp"
     },
     {
         "id": 24,
@@ -330,17 +184,6 @@ const baseDeDatos = [
         "descripcion": "Un aroma con los prominentes lirios del valle se funden con cautivantes notas de vainilla destacando tu elegancia",
         "imagen": "img/prods/liasson.webp",
         "categoria": "lbel",
-        "tipoDeProducto": "Fragancia",
-        "genero": "Femenino"
-    },
-    {
-        "id": 25,
-        "nombre": "L'image",
-        "precio": 43000,
-        "precioReal": 150000,
-        "descripcion": "Sofisticadas notas de ylang ylang y jazmín para la mujer determinada y segura de sí misma, que transmite elegancia capturando todas las miradas",
-        "imagen": "img/prods/limage.webp",
-        "categoria": "esika",
         "tipoDeProducto": "Fragancia",
         "genero": "Femenino"
     },
@@ -366,21 +209,12 @@ const baseDeDatos = [
         "genero": "Femenino"
     },
     {
-        "nombre": "Mía Solar",
-        "precio": 0,
-        "precioReal": 204000,
-        "descripcion": "Con notas vibrantes y envolventes a luminosa flor de magnolia que se combina con el exquisito durazno blanco para brindar el brillo y calidez de la energía solar; para la mujer sensual e independiente.",
-        "imagen": "img/prods/miaSolar.jpg",
-        "categoria": "esika",
-        "tipoDeProducto": "Fragancia",
-        "genero": "Femenino"
-    },
-    {
-        "nombre": "Bela",
-        "precio": 0,
-        "precioReal": 112000,
-        "descripcion": "Elegantes notas de aceite de rosa búlgara y flor de pera francesa, lo mejor del mundo en una esencia.",
-        "imagen": "img/prods/bela.webp",
+        "id": 25,
+        "nombre": "L'image",
+        "precio": 43000,
+        "precioReal": 150000,
+        "descripcion": "Sofisticadas notas de ylang ylang y jazmín para la mujer determinada y segura de sí misma, que transmite elegancia capturando todas las miradas",
+        "imagen": "img/prods/limage.webp",
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
         "genero": "Femenino"
@@ -436,44 +270,225 @@ const baseDeDatos = [
         "imagen": "img/prods/nitroOcean.webp"
     },
     {
-        "nombre": "Leyenda Absolute",
+        "nombre": "Altheus",
         "precio": 0,
-        "precioReal": 172000,
-        "descripcion": "Con seductoras notas de cardamomo y tonka, para el seductor innato que disfruta sorprenderla, volverla su cómplice y convertir cualquier situación en una experiencia inolvidable.",
+        "precioReal": 138000,
+        "descripcion": "Eau de toilette masculino con aroma oriental de alta concentración* y larga duración, con vibrantes notas de nuez y lavanda",
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/leyendaAbsolute.webp"
+        "imagen": "img/prods/altheus.webp"
     },
     {
-        "nombre": "Pulso Abosolute",
+        "id": 15,
+        "nombre": "Prints",
+        "precio": 25000,
+        "precioReal": 58000,
+        "descripcion": "De aroma oriental dulce gracias a sus intensas notas de jazmin combinadas con la irresistible vainilla",
+        "imagen": "img/prods/prints.jpg",
+        "categoria": "cyzone",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Femenino"
+    },
+    {
+        "nombre": "Prints Adventure",
         "precio": 0,
-        "precioReal": 172000,
-        "descripcion": "Seductoras notas de tabaco que se fusionan con vibrantes acordes de cardamomo",
+        "precioReal": 58000,
+        "descripcion": "Aroma floral gracias a la bergamota energizante con la exótica y dulce flor de Ylang-Ylang envuelta en sándalo",
+        "categoria": "cyzone",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Femenino",
+        "imagen": "img/prods/printsAdventure.webp"
+    },
+    {
+        "nombre": "Bela",
+        "precio": 0,
+        "precioReal": 112000,
+        "descripcion": "Elegantes notas de aceite de rosa búlgara y flor de pera francesa, lo mejor del mundo en una esencia.",
+        "imagen": "img/prods/bela.webp",
+        "categoria": "esika",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Femenino"
+    },
+    {
+        "id": 8,
+        "nombre": "Dancing",
+        "precio": 35000,
+        "precioReal": 78000,
+        "descripcion": "De aroma floral gracias a sus refrescantes notas cítricas y pétalos de rosa",
+        "imagen": "img/prods/dancing.webp",
+        "categoria": "cyzone",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Femenino"
+    },
+    {
+        "id": 9,
+        "nombre": "Dancing Night",
+        "precio": 35000,
+        "precioReal": 78000,
+        "descripcion": "De aroma oriental dulce gracias a sus radiantes notas vibrantes de ciruela y vainilla",
+        "imagen": "img/prods/dancingNight.jpg",
+        "categoria": "cyzone",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Femenino"
+    },
+    {
+        "id": 10,
+        "nombre": "Dancing Sunset",
+        "precio": 35000,
+        "precioReal": 78000,
+        "descripcion": "De aroma oriental dulce gracias a su mezcla de radiantes notas vibrantes de flores de sambac y sugar ambar",
+        "imagen": "img/prods/dancingSunset.webp",
+        "categoria": "cyzone",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Femenino"
+    },
+    {
+        "nombre": "Exus",
+        "precio": 0,
+        "precioReal": 140000,
+        "descripcion": "Aroma herbal aromático con seductoras notas de cuero y lavanda",
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/pulsoAbsolute.jpg"
+        "imagen": "img/prods/exus.jpg"
     },
     {
-        "nombre": "Magnetic Absolute",
+        "nombre": "Homme 033",
         "precio": 0,
-        "precioReal": 172000,
-        "descripcion": "Con un magnético y envolvente acorde exclusivo King Wood que fusiona sándalo y cuero, junto al fresco aceite esencial de salvia",
+        "precioReal": 218000,
+        "descripcion": "Aroma de hombre de larga duración con la elegante frescura del Geranio de bourbon y acordes de Cognac para el hombre con todo el poder de atraccion.",
+        "categoria": "lbel",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Masculino",
+        "imagen": "img/prods/homme033.webp"
+    },
+    {
+        "nombre": "Alpha",
+        "precio": 0,
+        "precioReal": 140000,
+        "descripcion": "Con exclusivo aceite esencial de salvia Francesa que se combina con el envolvente aceite de cedro y fresco extracto de mandarina Italiana",
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/magneticAbsolute.webp"
+        "imagen": "img/prods/alpha.webp"
     },
     {
-        "nombre": "Urban Way",
+        "id": 1,
+        "nombre": "Fleur",
+        "precio": 50000,
+        "precioReal": 174000,
+        "descripcion": "Familia olfativa floral con un aroma creado al combinar la elegancia del lirio francés con notas frutales de pera y mandarina",
+        "imagen": "img/prods/fleur.jpg",
+        "categoria": "lbel",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Femenino"
+    },
+    {
+        "id": 3,
+        "nombre": "Fleur Icon",
+        "precio": 60000,
+        "precioReal": 174000,
+        "descripcion": "Brillantes acentos frutales de lychee y pera, se fusionan con sofisticadas notas de Magnolia Francesa",
+        "imagen": "img/prods/fleurIcon.webp",
+        "categoria": "lbel",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Femenino"
+    },
+    {
+        "nombre": "Fantasía Azul Infinito",
         "precio": 0,
-        "precioReal": 81000,
-        "descripcion": "Este aroma fresco y vibrante es ideal para dejar una impresión duradera y elegante",
+        "precioReal": 112000,
+        "descripcion": "Eau de Parfum para mujer de aroma frutal de alta concentración, con vibrantes notas frescas de bergamota y sándalo.",
+        "imagen": "img/prods/fantasiaAzulInfinito.jpg",
+        "categoria": "esika",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Femenino"
+    },
+    {
+        "nombre": "All Black",
+        "precio": 0,
+        "precioReal": 94000,
+        "descripcion": "De aroma oriental especiada gracias sus toques frescos de cardamomo, notas dulces de tonka y cremoso cedro ",
         "categoria": "cyzone",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/urbanWay.jpg"
+        "imagen": "img/prods/allBlack.webp"
+    },
+    {
+        "id": 19,
+        "nombre": "Impredecible",
+        "precio": 40000,
+        "precioReal": 134800,
+        "descripcion": "Con adictivas notas de vainilla de Madagascar y freesia de Japón para las mujeres que intrigan por su sensualidad",
+        "imagen": "img/prods/impredecible.jpg",
+        "categoria": "esika",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Femenino"
+    },
+    {
+        "id": 20,
+        "nombre": "Impredecible Mysterious",
+        "precio": 40000,
+        "precioReal": 134000,
+        "descripcion": "Con exquisita flor de luna conocida por revelar su adictiva esencia bajo la luz de la luna, que junto a la cremosa vainilla, brindan un aroma femenino y sensual inspirado en la mujer misteriosa e impredecible",
+        "imagen": "img/prods/impredecibleMysterious.jpg",
+        "categoria": "esika",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Femenino"
+    },
+    {
+        "nombre": "I.d.",
+        "precio": 0,
+        "precioReal": 142000,
+        "descripcion": "Es un aroma con frescos acordes cítricos de bergamota se envuelven con chispeantes notas oceánicas",
+        "categoria": "lbel",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Unisex",
+        "imagen": "img/prods/id.webp"
+    },
+    {
+        "id": 4,
+        "nombre": "Vibranza",
+        "precio": 55000,
+        "precioReal": 150000,
+        "descripcion": "Con irresistibles notas de orquídea de vainilla y flor de café",
+        "imagen": "img/prods/vibranza.webp",
+        "categoria": "esika",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Femenino"
+    },
+    {
+        "id": 5,
+        "nombre": "Vibranza Addiction",
+        "precio": 59000,
+        "precioReal": 150000,
+        "descripcion": "Sus principales notas es el elixir de pétalos de rosa y licor de cassis, que se envuelven en las misteriosas maderas Oud, exclusivo ingrediente de la alta perfumería",
+        "imagen": "img/prods/vibranzaAddiction.jpg",
+        "categoria": "esika",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Femenino"
+    },
+    {
+        "nombre": "Vibranza Luminous",
+        "precio": 0,
+        "precioReal": 150000,
+        "descripcion": "Luminosas notas de bergamota se unen a las sensuales esencias del jazmín y ámbar, para la mujer femenina y fuerte a la vez, que deja una esencia inolvidable al pasar.",
+        "imagen": "img/prods/vibranzaLuminous.webp",
+        "categoria": "esika",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Femenino"
+    },
+    {
+        "id": 23,
+        "nombre": "Fiori",
+        "precio": 39990,
+        "precioReal": 116300,
+        "descripcion": "Elegantes notas de rosas blancas y gardenia que resaltan la confianza y fuerza de la mujer",
+        "imagen": "img/prods/fiori.webp",
+        "categoria": "esika",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Femenino"
     },
     {
         "nombre": "D'orsay",
@@ -516,34 +531,68 @@ const baseDeDatos = [
         "imagen": "img/prods/dorsayInfinite.jpg"
     },
     {
-        "nombre": "Homme 033",
+        "id": 21,
+        "nombre": "Girlink",
+        "precio": 25000,
+        "precioReal": 76000,
+        "descripcion": "De aroma floral gracias sus toques frescos de uva y un delicado bouquet de flores blancas",
+        "imagen": "img/prods/girlink.webp",
+        "categoria": "cyzone",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Femenino"
+    },
+    {
+        "nombre": "Fist",
         "precio": 0,
+        "precioReal": 78000,
+        "descripcion": "De aroma maderoso gracias a sus explosivas notas de cedro rojo y toques sutiles de lavanda",
+        "categoria": "cyzone",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Masculino",
+        "imagen": "img/prods/fist.webp"
+    },
+    {
+        "id": 17,
+        "nombre": "Mon",
+        "precio": 58000,
         "precioReal": 218000,
-        "descripcion": "Aroma de hombre de larga duración con la elegante frescura del Geranio de bourbon y acordes de Cognac para el hombre con todo el poder de atraccion.",
+        "descripcion": "Un aroma inspirado en la mujer única y real, llena de contrastes. Aquella que vive su esencia femenina. Es delicada y fuerte",
+        "imagen": "img/prods/mon.webp",
         "categoria": "lbel",
         "tipoDeProducto": "Fragancia",
-        "genero": "Masculino",
-        "imagen": "img/prods/homme033.webp"
+        "genero": "Femenino"
     },
     {
-        "nombre": "Magnat",
-        "precio": 0,
-        "precioReal": 186000,
-        "descripcion": "Contiene exclusivas notas de cuero italiano y aromáticas notas de ciprés",
-        "categoria": "esika",
+        "id": 18,
+        "nombre": "Mon Gold",
+        "precio": 58000,
+        "precioReal": 218000,
+        "descripcion": "Perfume para mujer de alta concentración. Chispeante champagne y un sofisticado bouquet floral se combinan con la elegancia y herencia francesa de la Base de Laire Mousse de Saxe",
+        "imagen": "img/prods/monGold.webp",
+        "categoria": "lbel",
         "tipoDeProducto": "Fragancia",
-        "genero": "Masculino",
-        "imagen": "img/prods/magnat.jpg"
+        "genero": "Femenino"
     },
     {
-        "nombre": "Exus",
+        "id": 22,
+        "nombre": "Mystic Star",
+        "precio": 35990,
+        "precioReal": 78000,
+        "descripcion": "Perfume de mujer de aroma oriental dulce que te hace brillar gracias a sus ingredientes de albaricoque, magnolia y adictiva vainilla",
+        "imagen": "img/prods/mysticStar.webp",
+        "categoria": "cyzone",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Femenino"
+    },
+    {
+        "nombre": "Mía Solar",
         "precio": 0,
-        "precioReal": 140000,
-        "descripcion": "Aroma herbal aromático con seductoras notas de cuero y lavanda",
+        "precioReal": 204000,
+        "descripcion": "Con notas vibrantes y envolventes a luminosa flor de magnolia que se combina con el exquisito durazno blanco para brindar el brillo y calidez de la energía solar; para la mujer sensual e independiente.",
+        "imagen": "img/prods/miaSolar.jpg",
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
-        "genero": "Masculino",
-        "imagen": "img/prods/exus.jpg"
+        "genero": "Femenino"
     },
     {
         "nombre": "Bleu Femme",
@@ -586,34 +635,24 @@ const baseDeDatos = [
         "imagen": "img/prods/bleuNight.jpg"
     },
     {
-        "nombre": "All Black",
+        "nombre": "Magnat",
         "precio": 0,
-        "precioReal": 94000,
-        "descripcion": "De aroma oriental especiada gracias sus toques frescos de cardamomo, notas dulces de tonka y cremoso cedro ",
-        "categoria": "cyzone",
+        "precioReal": 186000,
+        "descripcion": "Contiene exclusivas notas de cuero italiano y aromáticas notas de ciprés",
+        "categoria": "esika",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/allBlack.webp"
+        "imagen": "img/prods/magnat.jpg"
     },
     {
-        "nombre": "New Cool",
+        "nombre": "Cardigan",
         "precio": 0,
-        "precioReal": 80000,
-        "descripcion": "De aroma oriental especiada gracias a sus potentes notas de bergamota, cálidos toques de pimienta Timut y notas de ámbar",
-        "categoria": "cyzone",
+        "precioReal": 138000,
+        "descripcion": "Creado con auténticas notas de ciprés y vetiver",
+        "categoria": "esika",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/newCool.webp"
-    },
-    {
-        "nombre": "Devos Magnetic",
-        "precio": 0,
-        "precioReal": 218000,
-        "descripcion": "Fusiona atractivos matices de cedro y el magnetismo de la pimienta negra, con las notas de la bergamota",
-        "categoria": "lbel",
-        "tipoDeProducto": "Fragancia",
-        "genero": "Masculino",
-        "imagen": "img/prods/devosMagnetic.jpg"
+        "imagen": "img/prods/cardigan.webp"
     },
     {
         "nombre": "Ímpetus",
@@ -624,76 +663,6 @@ const baseDeDatos = [
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
         "imagen": "img/prods/impetus.webp"
-    },
-    {
-        "nombre": "Winner Sport",
-        "precio": 0,
-        "precioReal": 130000,
-        "descripcion": "Con activas notas de salvia sclarea y cedro",
-        "categoria": "esika",
-        "tipoDeProducto": "Fragancia",
-        "genero": "Masculino",
-        "imagen": "img/prods/winnerSport.jpg"
-    },
-    {
-        "nombre": "Winner Action",
-        "precio": 0,
-        "precioReal": 130000,
-        "descripcion": "Cuenta con refrescantes notas de jengibre de Madagascar y geranio",
-        "categoria": "esika",
-        "tipoDeProducto": "Fragancia",
-        "genero": "Masculino",
-        "imagen": "img/prods/winnerAction.jpg"
-    },
-    {
-        "nombre": "Alpha",
-        "precio": 0,
-        "precioReal": 140000,
-        "descripcion": "Con exclusivo aceite esencial de salvia Francesa que se combina con el envolvente aceite de cedro y fresco extracto de mandarina Italiana",
-        "categoria": "esika",
-        "tipoDeProducto": "Fragancia",
-        "genero": "Masculino",
-        "imagen": "img/prods/alpha.webp"
-    },
-    {
-        "nombre": "I.d.",
-        "precio": 0,
-        "precioReal": 142000,
-        "descripcion": "Es un aroma con frescos acordes cítricos de bergamota se envuelven con chispeantes notas oceánicas",
-        "categoria": "lbel",
-        "tipoDeProducto": "Fragancia",
-        "genero": "Unisex",
-        "imagen": "img/prods/id.webp"
-    },
-    {
-        "nombre": "You",
-        "precio": 0,
-        "precioReal": 100800,
-        "descripcion": "Con aroma frutal, cítrico y energizante, a base de frescas notas de limón y mandarina",
-        "categoria": "esika",
-        "tipoDeProducto": "Fragancia",
-        "genero": "Unisex",
-        "imagen": "img/prods/you.webp"
-    },
-    {
-        "nombre": "You Live",
-        "precio": 0,
-        "precioReal": 112000,
-        "descripcion": "Eau de toilette Unisex de aroma frutal, con extraordinarias notas de naranja florida y tonka que te impulsan a vivir experiencias únicas con tus amigos.",
-        "imagen": "img/prods/youLive.webp",
-        "categoria": "lbel",
-        "tipoDeProducto": "Fragancia",
-        "genero": "Unisex"
-    },
-    {
-        "nombre": "You Good Vibes",
-        "precio": 0,
-        "precioReal": 112000,
-        "descripcion": "Eau de Toilette unisex de aroma frutal, con radiantes notas de pera que junto a la sal marina y madera flotante",
-        "categoria": "esika",
-        "tipoDeProducto": "Fragancia",
-        "genero": "Unisex",
-        "imagen": "img/prods/youGoodVibes.webp"
     },
     {
         "nombre": "Live Polo",
@@ -716,45 +685,73 @@ const baseDeDatos = [
         "imagen": "img/prods/liveAdventure.webp"
     },
     {
-        "nombre": "Fist",
+        "nombre": "Magnetic Absolute",
         "precio": 0,
-        "precioReal": 78000,
-        "descripcion": "De aroma maderoso gracias a sus explosivas notas de cedro rojo y toques sutiles de lavanda",
+        "precioReal": 172000,
+        "descripcion": "Con un magnético y envolvente acorde exclusivo King Wood que fusiona sándalo y cuero, junto al fresco aceite esencial de salvia",
+        "categoria": "esika",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Masculino",
+        "imagen": "img/prods/magneticAbsolute.webp"
+    },
+    {
+        "nombre": "Urban Way",
+        "precio": 0,
+        "precioReal": 81000,
+        "descripcion": "Este aroma fresco y vibrante es ideal para dejar una impresión duradera y elegante",
         "categoria": "cyzone",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/fist.webp"
+        "imagen": "img/prods/urbanWay.jpg"
     },
-    
     {
-        "nombre": "Cardigan",
+        "nombre": "Dream",
         "precio": 0,
-        "precioReal": 138000,
-        "descripcion": "Creado con auténticas notas de ciprés y vetiver",
+        "precioReal": 134800,
+        "descripcion": "Con brillantes notas de pera de Provence que se fusionan con la elegante esencia de flor de magnolia y cálida madera de cedro, inspirado en la mujer audaz, vibrante y llena de energía",
+        "imagen": "img/prods/dream.jpg",
+        "categoria": "esika",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Femenino"
+    },
+    {
+        "nombre": "Winner Sport",
+        "precio": 0,
+        "precioReal": 130000,
+        "descripcion": "Con activas notas de salvia sclarea y cedro",
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/cardigan.webp"
+        "imagen": "img/prods/winnerSport.jpg"
     },
-    
     {
-        "nombre": "Salvaje",
+        "nombre": "Winner Action",
         "precio": 0,
-        "precioReal": 112000,
-        "descripcion": "Con aroma oriental especiado de concentración media, a base de seductoras notas de musgo y patchouli",
+        "precioReal": 130000,
+        "descripcion": "Cuenta con refrescantes notas de jengibre de Madagascar y geranio",
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/salvaje.webp"
+        "imagen": "img/prods/winnerAction.jpg"
     },
     {
-        "nombre": "Altheus",
+        "nombre": "Satin Rouge",
         "precio": 0,
-        "precioReal": 138000,
-        "descripcion": "Eau de toilette masculino con aroma oriental de alta concentración* y larga duración, con vibrantes notas de nuez y lavanda",
-        "categoria": "esika",
+        "precioReal": 204000,
+        "descripcion": "Perfume de concentración alta que mezcla la sensual e irresistible orquídea de Madagascar y acordes de pimienta",
+        "imagen": "img/prods/satinRouge.jpg",
+        "categoria": "lbel",
         "tipoDeProducto": "Fragancia",
-        "genero": "Masculino",
-        "imagen": "img/prods/altheus.webp"
+        "genero": "Femenino"
+    },
+    {
+        "nombre": "Grazzia",
+        "precio": 46000,
+        "precioReal": 204000,
+        "descripcion": "Creado con románticas notas de rosa de Bulgaria e iris. Para una mujer femenina por naturaleza, que le gusta despertar su lado más romántico creando momentos únicos.",
+        "imagen": "img/prods/grazzia.jpg",
+        "categoria": "lbel",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Femenino"
     }
-];
+]
