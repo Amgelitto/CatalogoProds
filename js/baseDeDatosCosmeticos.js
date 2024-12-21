@@ -204,6 +204,36 @@ const baseDeDatos = [
         "tipo": "cejas"
     },
     {
+        "nombre": "Máscara Mega Full Volume",
+        "precio": 0.0,
+        "precioReal": 46000.0,
+        "descripcion": "Máscara de pestañas Mega Full Volume. Volumen extremo y sin grumos. Pestañas que no pesan, ¡mirada que impacta! Máscara con efecto volumen extremo a prueba de agua, con sensación ligera y sin grumos.",
+        "imagen": "img/prods/megaFullVolume.webp",
+        "categoria": "esika",
+        "tipoDeProducto": "cosmetico",
+        "tipo": "cejas"
+    },
+    {
+        "nombre": "Máscara de pestañas Mega Full Curve",
+        "precio": 0.0,
+        "precioReal": 46000.0,
+        "descripcion": "Máscara de pestañas Mega Full Curve. Brinda rizado extremo todo el día y pestañas elevadas desde la primera pasada. A prueba de agua, sin grumos y sin rizador. Color: negro.",
+        "imagen": "img/prods/megaFullCurve.webp",
+        "categoria": "esika",
+        "tipoDeProducto": "cosmetico",
+        "tipo": "cejas"
+    },
+    {
+        "nombre": "Máscara de Pestañas Magnetic Lash Mystic Star Studio Look",
+        "precio": 0.0,
+        "precioReal": 42000.0,
+        "descripcion": "¡Máscara de pestañas Magnetic Lash de Studio Look te da una mirada con poder MAGNÉTICO! Su tecnología revolucionaria Smart Magnet con esferas magnéticas(*) te brinda mirada magnética: 7 veces más largo, 6 veces mayor volumen de pestañas y 5 más rizadas ¡Duración hasta por 24 horas!",
+        "imagen": "img/prods/magneticLash.webp",
+        "categoria": "cyzone",
+        "tipoDeProducto": "cosmetico",
+        "tipo": "cejas"
+    },
+    {
         "nombre": "Mega Multi Benefit Máscara de Pestañas",
         "precio": 0.0,
         "precioReal": 46000.0,

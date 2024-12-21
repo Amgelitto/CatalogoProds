@@ -1,15 +1,5 @@
 const baseDeDatos = [
     {
-        "nombre": "New Cool",
-        "precio": 0,
-        "precioReal": 80000,
-        "descripcion": "De aroma oriental especiada gracias a sus potentes notas de bergamota, cálidos toques de pimienta Timut y notas de ámbar",
-        "categoria": "cyzone",
-        "tipoDeProducto": "Fragancia",
-        "genero": "Masculino",
-        "imagen": "img/prods/newCool.webp"
-    },
-    {
         "nombre": "Pulso Abosolute",
         "precio": 0,
         "precioReal": 172000,
@@ -28,6 +18,26 @@ const baseDeDatos = [
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
         "imagen": "img/prods/leyendaAbsolute.webp"
+    },
+    {
+        "nombre": "Magnetic Absolute",
+        "precio": 0,
+        "precioReal": 172000,
+        "descripcion": "Con un magnético y envolvente acorde exclusivo King Wood que fusiona sándalo y cuero, junto al fresco aceite esencial de salvia",
+        "categoria": "esika",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Masculino",
+        "imagen": "img/prods/magneticAbsolute.webp"
+    },
+    {
+        "nombre": "New Cool",
+        "precio": 0,
+        "precioReal": 80000,
+        "descripcion": "De aroma oriental especiada gracias a sus potentes notas de bergamota, cálidos toques de pimienta Timut y notas de ámbar",
+        "categoria": "cyzone",
+        "tipoDeProducto": "Fragancia",
+        "genero": "Masculino",
+        "imagen": "img/prods/newCool.webp"
     },
     {
         "nombre": "Vanilla",
@@ -683,16 +693,6 @@ const baseDeDatos = [
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
         "imagen": "img/prods/liveAdventure.webp"
-    },
-    {
-        "nombre": "Magnetic Absolute",
-        "precio": 0,
-        "precioReal": 172000,
-        "descripcion": "Con un magnético y envolvente acorde exclusivo King Wood que fusiona sándalo y cuero, junto al fresco aceite esencial de salvia",
-        "categoria": "esika",
-        "tipoDeProducto": "Fragancia",
-        "genero": "Masculino",
-        "imagen": "img/prods/magneticAbsolute.webp"
     },
     {
         "nombre": "Urban Way",
