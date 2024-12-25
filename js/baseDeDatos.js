@@ -7,7 +7,8 @@ const baseDeDatos = [
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/pulsoAbsolute.jpg"
+        "imagen": "img/prods/pulsoAbsolute.jpg",
+        "id": "30"
     },
     {
         "nombre": "Leyenda Absolute",
@@ -17,7 +18,8 @@ const baseDeDatos = [
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/leyendaAbsolute.webp"
+        "imagen": "img/prods/leyendaAbsolute.webp",
+        "id": "31"
     },
     {
         "nombre": "Magnetic Absolute",
@@ -27,7 +29,8 @@ const baseDeDatos = [
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/magneticAbsolute.webp"
+        "imagen": "img/prods/magneticAbsolute.webp",
+        "id": "32"
     },
     {
         "nombre": "New Cool",
@@ -37,7 +40,8 @@ const baseDeDatos = [
         "categoria": "cyzone",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/newCool.webp"
+        "imagen": "img/prods/newCool.webp",
+        "id": "33"
     },
     {
         "nombre": "Vanilla",
@@ -47,10 +51,11 @@ const baseDeDatos = [
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/vanilla.webp"
+        "imagen": "img/prods/vanilla.webp",
+        "id": "34"
     },
     {
-        "id": 16,
+        "id": "35",
         "nombre": "Vanilla Scent",
         "precio": 50000,
         "precioReal": 112000,
@@ -61,7 +66,7 @@ const baseDeDatos = [
         "genero": "Femenino"
     },
     {
-        "id": 14,
+        "id": "36",
         "nombre": "Mithyka",
         "precio": 60000,
         "precioReal": 180000,
@@ -79,10 +84,11 @@ const baseDeDatos = [
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/salvaje.webp"
+        "imagen": "img/prods/salvaje.webp",
+        "id": "37"
     },
     {
-        "id": 6,
+        "id": "38",
         "nombre": "In Love",
         "precio": 38000,
         "precioReal": 76000,
@@ -93,7 +99,7 @@ const baseDeDatos = [
         "genero": "Femenino"
     },
     {
-        "id": 7,
+        "id": "39",
         "nombre": "In Love Passion",
         "precio": 39000,
         "precioReal": 76000,
@@ -104,7 +110,7 @@ const baseDeDatos = [
         "genero": "Femenino"
     },
     {
-        "id": 11,
+        "id": "40",
         "nombre": "Expression",
         "precio": 55000,
         "precioReal": 108000,
@@ -115,7 +121,7 @@ const baseDeDatos = [
         "genero": "Femenino"
     },
     {
-        "id": 12,
+        "id": "41",
         "nombre": "Expression Sens",
         "precio": 60000,
         "precioReal": 108000,
@@ -126,7 +132,7 @@ const baseDeDatos = [
         "genero": "Femenino"
     },
     {
-        "id": 13,
+        "id": "42",
         "nombre": "Expression Magic",
         "precio": 55000,
         "precioReal": 108000,
@@ -144,7 +150,8 @@ const baseDeDatos = [
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
         "genero": "Femenino",
-        "imagen": "img/prods/expressionCelebrate.webp"
+        "imagen": "img/prods/expressionCelebrate.webp",
+        "id": "43"
     },
     {
         "nombre": "Devos Magnetic",
@@ -154,7 +161,8 @@ const baseDeDatos = [
         "categoria": "lbel",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/devosMagnetic.jpg"
+        "imagen": "img/prods/devosMagnetic.jpg",
+        "id": "44"
     },
     {
         "nombre": "You",
@@ -164,7 +172,8 @@ const baseDeDatos = [
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
         "genero": "Unisex",
-        "imagen": "img/prods/you.webp"
+        "imagen": "img/prods/you.webp",
+        "id": "45"
     },
     {
         "nombre": "You Live",
@@ -174,7 +183,8 @@ const baseDeDatos = [
         "imagen": "img/prods/youLive.webp",
         "categoria": "lbel",
         "tipoDeProducto": "Fragancia",
-        "genero": "Unisex"
+        "genero": "Unisex",
+        "id": "46"
     },
     {
         "nombre": "You Good Vibes",
@@ -184,10 +194,11 @@ const baseDeDatos = [
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
         "genero": "Unisex",
-        "imagen": "img/prods/youGoodVibes.webp"
+        "imagen": "img/prods/youGoodVibes.webp",
+        "id": "47"
     },
     {
-        "id": 24,
+        "id": "48",
         "nombre": "Liasson",
         "precio": 80290,
         "precioReal": 218000,
@@ -205,10 +216,11 @@ const baseDeDatos = [
         "categoria": "cyzone",
         "tipoDeProducto": "Fragancia",
         "genero": "Femenino",
-        "imagen": "img/prods/autentik.webp"
+        "imagen": "img/prods/autentik.webp",
+        "id": "49"
     },
     {
-        "id": 26,
+        "id": "50",
         "nombre": "Autenti-k Vibes",
         "precio": 35000,
         "precioReal": 81000,
@@ -219,7 +231,7 @@ const baseDeDatos = [
         "genero": "Femenino"
     },
     {
-        "id": 25,
+        "id": "51",
         "nombre": "L'image",
         "precio": 43000,
         "precioReal": 150000,
@@ -237,7 +249,8 @@ const baseDeDatos = [
         "categoria": "cyzone",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/nitro.webp"
+        "imagen": "img/prods/nitro.webp",
+        "id": "52"
     },
     {
         "nombre": "Nitro Air",
@@ -247,7 +260,8 @@ const baseDeDatos = [
         "categoria": "cyzone",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/nitroAir.jpg"
+        "imagen": "img/prods/nitroAir.jpg",
+        "id": "53"
     },
     {
         "nombre": "Nitro Night",
@@ -257,7 +271,8 @@ const baseDeDatos = [
         "categoria": "cyzone",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/nitroNight.webp"
+        "imagen": "img/prods/nitroNight.webp",
+        "id": "54"
     },
     {
         "nombre": "Nitro Intense",
@@ -267,7 +282,8 @@ const baseDeDatos = [
         "categoria": "cyzone",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/nitroIntense.webp"
+        "imagen": "img/prods/nitroIntense.webp",
+        "id": "55"
     },
     {
         "nombre": "Nitro Ocean",
@@ -277,7 +293,8 @@ const baseDeDatos = [
         "categoria": "cyzone",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/nitroOcean.webp"
+        "imagen": "img/prods/nitroOcean.webp",
+        "id": "56"
     },
     {
         "nombre": "Altheus",
@@ -287,10 +304,11 @@ const baseDeDatos = [
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/altheus.webp"
+        "imagen": "img/prods/altheus.webp",
+        "id": "57"
     },
     {
-        "id": 15,
+        "id": "58",
         "nombre": "Prints",
         "precio": 25000,
         "precioReal": 58000,
@@ -308,7 +326,8 @@ const baseDeDatos = [
         "categoria": "cyzone",
         "tipoDeProducto": "Fragancia",
         "genero": "Femenino",
-        "imagen": "img/prods/printsAdventure.webp"
+        "imagen": "img/prods/printsAdventure.webp",
+        "id": "59"
     },
     {
         "nombre": "Bela",
@@ -318,10 +337,11 @@ const baseDeDatos = [
         "imagen": "img/prods/bela.webp",
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
-        "genero": "Femenino"
+        "genero": "Femenino",
+        "id": "60"
     },
     {
-        "id": 8,
+        "id": "61",
         "nombre": "Dancing",
         "precio": 35000,
         "precioReal": 78000,
@@ -332,7 +352,7 @@ const baseDeDatos = [
         "genero": "Femenino"
     },
     {
-        "id": 9,
+        "id": "62",
         "nombre": "Dancing Night",
         "precio": 35000,
         "precioReal": 78000,
@@ -343,7 +363,7 @@ const baseDeDatos = [
         "genero": "Femenino"
     },
     {
-        "id": 10,
+        "id": "63",
         "nombre": "Dancing Sunset",
         "precio": 35000,
         "precioReal": 78000,
@@ -361,7 +381,8 @@ const baseDeDatos = [
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/exus.jpg"
+        "imagen": "img/prods/exus.jpg",
+        "id": "64"
     },
     {
         "nombre": "Homme 033",
@@ -371,7 +392,8 @@ const baseDeDatos = [
         "categoria": "lbel",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/homme033.webp"
+        "imagen": "img/prods/homme033.webp",
+        "id": "65"
     },
     {
         "nombre": "Alpha",
@@ -381,10 +403,11 @@ const baseDeDatos = [
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/alpha.webp"
+        "imagen": "img/prods/alpha.webp",
+        "id": "66"
     },
     {
-        "id": 1,
+        "id": "67",
         "nombre": "Fleur",
         "precio": 50000,
         "precioReal": 174000,
@@ -395,7 +418,7 @@ const baseDeDatos = [
         "genero": "Femenino"
     },
     {
-        "id": 3,
+        "id": "68",
         "nombre": "Fleur Icon",
         "precio": 60000,
         "precioReal": 174000,
@@ -413,7 +436,8 @@ const baseDeDatos = [
         "imagen": "img/prods/fantasiaAzulInfinito.jpg",
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
-        "genero": "Femenino"
+        "genero": "Femenino",
+        "id": "69"
     },
     {
         "nombre": "All Black",
@@ -423,10 +447,11 @@ const baseDeDatos = [
         "categoria": "cyzone",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/allBlack.webp"
+        "imagen": "img/prods/allBlack.webp",
+        "id": "70"
     },
     {
-        "id": 19,
+        "id": "71",
         "nombre": "Impredecible",
         "precio": 40000,
         "precioReal": 134800,
@@ -437,7 +462,7 @@ const baseDeDatos = [
         "genero": "Femenino"
     },
     {
-        "id": 20,
+        "id": "72",
         "nombre": "Impredecible Mysterious",
         "precio": 40000,
         "precioReal": 134000,
@@ -455,10 +480,11 @@ const baseDeDatos = [
         "categoria": "lbel",
         "tipoDeProducto": "Fragancia",
         "genero": "Unisex",
-        "imagen": "img/prods/id.webp"
+        "imagen": "img/prods/id.webp",
+        "id": "73"
     },
     {
-        "id": 4,
+        "id": "74",
         "nombre": "Vibranza",
         "precio": 55000,
         "precioReal": 150000,
@@ -469,7 +495,7 @@ const baseDeDatos = [
         "genero": "Femenino"
     },
     {
-        "id": 5,
+        "id": "75",
         "nombre": "Vibranza Addiction",
         "precio": 59000,
         "precioReal": 150000,
@@ -487,10 +513,11 @@ const baseDeDatos = [
         "imagen": "img/prods/vibranzaLuminous.webp",
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
-        "genero": "Femenino"
+        "genero": "Femenino",
+        "id": "76"
     },
     {
-        "id": 23,
+        "id": "77",
         "nombre": "Fiori",
         "precio": 39990,
         "precioReal": 116300,
@@ -508,7 +535,8 @@ const baseDeDatos = [
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/dorsay.webp"
+        "imagen": "img/prods/dorsay.webp",
+        "id": "78"
     },
     {
         "nombre": "D'orsay Inspire",
@@ -518,7 +546,8 @@ const baseDeDatos = [
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/dorsayInspire.jpg"
+        "imagen": "img/prods/dorsayInspire.jpg",
+        "id": "79"
     },
     {
         "nombre": "D'orsay Legacy",
@@ -528,7 +557,8 @@ const baseDeDatos = [
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/dorsayLegacy.webp"
+        "imagen": "img/prods/dorsayLegacy.webp",
+        "id": "80"
     },
     {
         "nombre": "D'orsay Infinite",
@@ -538,10 +568,11 @@ const baseDeDatos = [
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/dorsayInfinite.jpg"
+        "imagen": "img/prods/dorsayInfinite.jpg",
+        "id": "81"
     },
     {
-        "id": 21,
+        "id": "82",
         "nombre": "Girlink",
         "precio": 25000,
         "precioReal": 76000,
@@ -559,10 +590,11 @@ const baseDeDatos = [
         "categoria": "cyzone",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/fist.webp"
+        "imagen": "img/prods/fist.webp",
+        "id": "83"
     },
     {
-        "id": 17,
+        "id": "84",
         "nombre": "Mon",
         "precio": 58000,
         "precioReal": 218000,
@@ -573,7 +605,7 @@ const baseDeDatos = [
         "genero": "Femenino"
     },
     {
-        "id": 18,
+        "id": "85",
         "nombre": "Mon Gold",
         "precio": 58000,
         "precioReal": 218000,
@@ -584,7 +616,7 @@ const baseDeDatos = [
         "genero": "Femenino"
     },
     {
-        "id": 22,
+        "id": "86",
         "nombre": "Mystic Star",
         "precio": 35990,
         "precioReal": 78000,
@@ -602,7 +634,8 @@ const baseDeDatos = [
         "imagen": "img/prods/miaSolar.jpg",
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
-        "genero": "Femenino"
+        "genero": "Femenino",
+        "id": "87"
     },
     {
         "nombre": "Bleu Femme",
@@ -612,7 +645,8 @@ const baseDeDatos = [
         "imagen": "img/prods/bleuFemme.jpg",
         "categoria": "lbel",
         "tipoDeProducto": "Fragancia",
-        "genero": "Femenino"
+        "genero": "Femenino",
+        "id": "88"
     },
     {
         "nombre": "Bleu Glacial",
@@ -622,7 +656,8 @@ const baseDeDatos = [
         "categoria": "lbel",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/bleuGlacial.jpg"
+        "imagen": "img/prods/bleuGlacial.jpg",
+        "id": "89"
     },
     {
         "nombre": "Bleu Intense",
@@ -632,7 +667,8 @@ const baseDeDatos = [
         "categoria": "lbel",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/bleuIntense.webp"
+        "imagen": "img/prods/bleuIntense.webp",
+        "id": "90"
     },
     {
         "nombre": "Bleu Night",
@@ -642,7 +678,8 @@ const baseDeDatos = [
         "categoria": "lbel",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/bleuNight.jpg"
+        "imagen": "img/prods/bleuNight.jpg",
+        "id": "91"
     },
     {
         "nombre": "Magnat",
@@ -652,7 +689,8 @@ const baseDeDatos = [
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/magnat.jpg"
+        "imagen": "img/prods/magnat.jpg",
+        "id": "92"
     },
     {
         "nombre": "Cardigan",
@@ -662,7 +700,8 @@ const baseDeDatos = [
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/cardigan.webp"
+        "imagen": "img/prods/cardigan.webp",
+        "id": "93"
     },
     {
         "nombre": "Ímpetus",
@@ -672,7 +711,8 @@ const baseDeDatos = [
         "categoria": "lbel",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/impetus.webp"
+        "imagen": "img/prods/impetus.webp",
+        "id": "94"
     },
     {
         "nombre": "Live Polo",
@@ -682,7 +722,8 @@ const baseDeDatos = [
         "categoria": "lbel",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/livePolo.jpg"
+        "imagen": "img/prods/livePolo.jpg",
+        "id": "95"
     },
     {
         "nombre": "Live Adventure",
@@ -692,7 +733,8 @@ const baseDeDatos = [
         "categoria": "lbel",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/liveAdventure.webp"
+        "imagen": "img/prods/liveAdventure.webp",
+        "id": "96"
     },
     {
         "nombre": "Urban Way",
@@ -702,7 +744,8 @@ const baseDeDatos = [
         "categoria": "cyzone",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/urbanWay.jpg"
+        "imagen": "img/prods/urbanWay.jpg",
+        "id": "97"
     },
     {
         "nombre": "Dream",
@@ -712,7 +755,8 @@ const baseDeDatos = [
         "imagen": "img/prods/dream.jpg",
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
-        "genero": "Femenino"
+        "genero": "Femenino",
+        "id": "98"
     },
     {
         "nombre": "Winner Sport",
@@ -722,7 +766,8 @@ const baseDeDatos = [
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/winnerSport.jpg"
+        "imagen": "img/prods/winnerSport.jpg",
+        "id": "99"
     },
     {
         "nombre": "Winner Action",
@@ -732,7 +777,8 @@ const baseDeDatos = [
         "categoria": "esika",
         "tipoDeProducto": "Fragancia",
         "genero": "Masculino",
-        "imagen": "img/prods/winnerAction.jpg"
+        "imagen": "img/prods/winnerAction.jpg",
+        "id": "100"
     },
     {
         "nombre": "Satin Rouge",
@@ -742,7 +788,8 @@ const baseDeDatos = [
         "imagen": "img/prods/satinRouge.jpg",
         "categoria": "lbel",
         "tipoDeProducto": "Fragancia",
-        "genero": "Femenino"
+        "genero": "Femenino",
+        "id": "101"
     },
     {
         "nombre": "Grazzia",
@@ -752,6 +799,7 @@ const baseDeDatos = [
         "imagen": "img/prods/grazzia.jpg",
         "categoria": "lbel",
         "tipoDeProducto": "Fragancia",
-        "genero": "Femenino"
+        "genero": "Femenino",
+        "id": "102"
     }
-]
+];

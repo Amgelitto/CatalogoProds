@@ -7,7 +7,8 @@ const baseDeDatos = [
         "imagen": "img/prods/desmaquilladorBifasicoLbel.webp",
         "categoria": "lbel",
         "tipoDeProducto": "cuidado",
-        "tipo": "limpieza"
+        "tipo": "limpieza",
+        "id": "01"
     },
     {
         "nombre": "Essential Agua Micelar Efecto Antiedad",
@@ -17,7 +18,8 @@ const baseDeDatos = [
         "imagen": "img/prods/aguaMiscelar.webp",
         "categoria": "lbel",
         "tipoDeProducto": "cuidado",
-        "tipo": "limpieza"
+        "tipo": "limpieza",
+        "id": "02"
     },
     {
         "nombre": "\n\n\n\nSerum de Acido Hialurónico Hidratante y Antiarrugas",
@@ -27,7 +29,8 @@ const baseDeDatos = [
         "imagen": "img/prods/serumAntiArrugas15HC.webp",
         "categoria": "lbel",
         "tipoDeProducto": "cuidado",
-        "tipo": "tratamiento"
+        "tipo": "tratamiento",
+        "id": "03"
     },
     {
         "nombre": "Gel Hidratante Facial con Ácido Hialurónico",
@@ -37,7 +40,8 @@ const baseDeDatos = [
         "imagen": "img/prods/gelHidratante.webp",
         "categoria": "lbel",
         "tipoDeProducto": "cuidado",
-        "tipo": "hidrata"
+        "tipo": "hidrata",
+        "id": "04"
     },
     {
         "nombre": "Bio Resist Espuma de Limpieza Facial",
@@ -47,7 +51,8 @@ const baseDeDatos = [
         "imagen": "img/prods/bioFacial.jpg",
         "categoria": "lbel",
         "tipoDeProducto": "cuidado",
-        "tipo": "limpieza"
+        "tipo": "limpieza",
+        "id": "05"
     },
     {
         "nombre": "Spécialiste Pro-Adapt Hidratante Efecto Cooling",
@@ -57,7 +62,8 @@ const baseDeDatos = [
         "imagen": "img/prods/hidratanteMorado.webp",
         "categoria": "lbel",
         "tipoDeProducto": "cuidado",
-        "tipo": "tratamiento"
+        "tipo": "tratamiento",
+        "id": "06"
     },
     {
         "nombre": "\n\n\nLigne Experte Elixir",
@@ -67,7 +73,8 @@ const baseDeDatos = [
         "imagen": "img/prods/experteCabello.webp",
         "categoria": "lbel",
         "tipoDeProducto": "cabello",
-        "tipo": "oleoC"
+        "tipo": "oleoC",
+        "id": "07"
     },
     {
         "nombre": "Suero Facial Efecto Relleno de la Apariencia de Arrugas",
@@ -77,7 +84,8 @@ const baseDeDatos = [
         "imagen": "img/prods/serum3hc.webp",
         "categoria": "lbel",
         "tipoDeProducto": "cuidado",
-        "tipo": "tratamiento"
+        "tipo": "tratamiento",
+        "id": "08"
     },
     {
         "nombre": "\n\n\n\n\nSerum Anti imperfecciones para piel grasa Spécialiste Antioleosidad",
@@ -87,7 +95,8 @@ const baseDeDatos = [
         "imagen": "img/prods/21AHAserum.webp",
         "categoria": "lbel",
         "tipoDeProducto": "cuidado",
-        "tipo": "tratamiento"
+        "tipo": "tratamiento",
+        "id": "09"
     },
     {
         "nombre": "Specialisté Crema Facial Matificante Anti-Oleosidad",
@@ -97,7 +106,8 @@ const baseDeDatos = [
         "imagen": "img/prods/concentradoPoros.webp",
         "categoria": "lbel",
         "tipoDeProducto": "cuidado",
-        "tipo": "tratamiento"
+        "tipo": "tratamiento",
+        "id": "10"
     },
     {
         "nombre": "Serum con Niacinamida para Piel Sensible y Reparación Concentré",
@@ -107,7 +117,8 @@ const baseDeDatos = [
         "imagen": "img/prods/10sensitive.png",
         "categoria": "lbel",
         "tipoDeProducto": "cuidado",
-        "tipo": "tratamiento"
+        "tipo": "tratamiento",
+        "id": "11"
     },
     {
         "nombre": "Estuche Perfeccionador de Cejas y Ojos",
@@ -117,7 +128,8 @@ const baseDeDatos = [
         "imagen": "img/prods/effetParfait.webp",
         "categoria": "lbel",
         "tipoDeProducto": "cosmetico",
-        "tipo": "cejas"
+        "tipo": "cejas",
+        "id": "12"
     },
     {
         "nombre": "Perlas Bronze PRO\n\n",
@@ -140,7 +152,8 @@ const baseDeDatos = [
         "color2": "#c37d5a",
         "color3": "#e3a051",
         "color4": "#dd817c",
-        "colores": 4
+        "colores": 4,
+        "id": "13"
     },
     {
         "nombre": "Labial COLORFIX 24H",
@@ -160,7 +173,8 @@ const baseDeDatos = [
         "color1": "#cd4c63",
         "color2": "#b54e51",
         "color3": "#922926",
-        "colores": 3
+        "colores": 3,
+        "id": "14"
     },
     {
         "nombre": "Labial COLORFIX Liquid Tattoo Mate",
@@ -174,7 +188,8 @@ const baseDeDatos = [
         "eleccion": true,
         "nombrecolor1": "Nude Versátil",
         "color1": "#8d3c41",
-        "colores": 1
+        "colores": 1,
+        "id": "15"
     },
     {
         "nombre": "Labial COLORFIX Duo Tattoo",
@@ -191,7 +206,8 @@ const baseDeDatos = [
         "nombrecolor2": "Rojo Sensación",
         "color1": "#810105",
         "color2": "#96000e",
-        "colores": 2
+        "colores": 2,
+        "id": "16"
     },
     {
         "nombre": "Máscara de Pestañas Max Volume Lash Studio Look",
@@ -201,7 +217,8 @@ const baseDeDatos = [
         "imagen": "img/prods/slMaxVolumeLash.webp",
         "categoria": "cyzone",
         "tipoDeProducto": "cosmetico",
-        "tipo": "cejas"
+        "tipo": "cejas",
+        "id": "17"
     },
     {
         "nombre": "Máscara Mega Full Volume",
@@ -211,7 +228,8 @@ const baseDeDatos = [
         "imagen": "img/prods/megaFullVolume.webp",
         "categoria": "esika",
         "tipoDeProducto": "cosmetico",
-        "tipo": "cejas"
+        "tipo": "cejas",
+        "id": "18"
     },
     {
         "nombre": "Máscara de pestañas Mega Full Curve",
@@ -221,7 +239,8 @@ const baseDeDatos = [
         "imagen": "img/prods/megaFullCurve.webp",
         "categoria": "esika",
         "tipoDeProducto": "cosmetico",
-        "tipo": "cejas"
+        "tipo": "cejas",
+        "id": "19"
     },
     {
         "nombre": "Máscara de Pestañas Magnetic Lash Mystic Star Studio Look",
@@ -231,7 +250,8 @@ const baseDeDatos = [
         "imagen": "img/prods/magneticLash.webp",
         "categoria": "cyzone",
         "tipoDeProducto": "cosmetico",
-        "tipo": "cejas"
+        "tipo": "cejas",
+        "id": "20"
     },
     {
         "nombre": "Mega Multi Benefit Máscara de Pestañas",
@@ -241,7 +261,8 @@ const baseDeDatos = [
         "imagen": "img/prods/multiMegaBenefit.webp",
         "categoria": "esika",
         "tipoDeProducto": "cosmetico",
-        "tipo": "cejas"
+        "tipo": "cejas",
+        "id": "21"
     },
     {
         "nombre": "Ice Cream Gloss CyPlay",
@@ -255,7 +276,8 @@ const baseDeDatos = [
         "eleccion": true,
         "nombrecolor1": "Watermelon",
         "color1": "#b61d3c",
-        "colores": 1
+        "colores": 1,
+        "id": "22"
     },
     {
         "nombre": "Creamy Lip Balm CyPlay",
@@ -269,7 +291,8 @@ const baseDeDatos = [
         "eleccion": true,
         "nombrecolor1": "Fuchsia Creamy",
         "color1": "#a94675",
-        "colores": 1
+        "colores": 1,
+        "id": "23"
     },
     {
         "nombre": "Labial Mate Studio Look",
@@ -292,7 +315,8 @@ const baseDeDatos = [
         "color2": "#b10438",
         "color3": "#992531",
         "color4": "#a600b5",
-        "colores": 4
+        "colores": 4,
+        "id": "24"
     },
     {
         "nombre": "Liner Illimité Delineador Líquido",
@@ -306,7 +330,8 @@ const baseDeDatos = [
         "eleccion": true,
         "nombrecolor1": "Noir",
         "color1": "#000000",
-        "colores": 1
+        "colores": 1,
+        "id": "25"
     },
     {
         "nombre": "Rouge L'Intense Labial Líquido",
@@ -320,7 +345,8 @@ const baseDeDatos = [
         "eleccion": true,
         "nombrecolor1": "Nude Charme",
         "color1": "#a7545b",
-        "colores": 1
+        "colores": 1,
+        "id": "26"
     },
     {
         "nombre": "Máscara Hypervolume",
@@ -330,7 +356,8 @@ const baseDeDatos = [
         "imagen": "img/prods/MascaraHypervolume.webp",
         "categoria": "lbel",
         "tipoDeProducto": "cosmetico",
-        "tipo": "cejas"
+        "tipo": "cejas",
+        "id": "27"
     },
     {
         "nombre": "Máscara de Pestañas Supreme Volume",
@@ -340,7 +367,8 @@ const baseDeDatos = [
         "imagen": "img/prods/supremeVolume.webp",
         "categoria": "lbel",
         "tipoDeProducto": "cosmetico",
-        "tipo": "cejas"
+        "tipo": "cejas",
+        "id": "28"
     },
     {
         "nombre": "Delineador Líquido Punta Plumón Eye PRO",
@@ -354,6 +382,7 @@ const baseDeDatos = [
         "eleccion": true,
         "nombrecolor1": "Negro Extremo",
         "color1": "#000000",
-        "colores": 1
+        "colores": 1,
+        "id": "29"
     }
 ];
